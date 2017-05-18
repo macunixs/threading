@@ -1,3 +1,16 @@
+""" 
+
+How this code works?
+
+simply we are incrementing each variable at different period.
+
+variable "a" is incremented at every 1 second
+variable "b" is incremented at every 5 seconds
+variable "c" is incremented at every 10 seconds
+
+"""
+
+
 from time import sleep
 import threading
 
